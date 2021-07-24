@@ -46,14 +46,22 @@
 .what-we-do .row img{
     width: 70px;
     height: 70px;
+    margin-top: 20px;
     margin-left: 50%;
     
+}
+
+
+.info1, .info2, .info3{
+    display: none;
+
 }
 .portfolio .row img{
     height: 200px;
     width: 98%;
     margin-left: 10px;
 }
+
 .contact-us{
     background-image: url(assets/backgrounds/c_image.jpg);
     background-size: cover;
