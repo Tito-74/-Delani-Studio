@@ -78,5 +78,16 @@ $(document).ready(function(){
         $('.card-8').css({"opacity": "100%"});
         $("#card-text-8").hide(200);
     });
+    $("#submit").click(function () {
+        var FullName = $("#fname").val();
+        var Email = $("#email").val();
+        var Message = $("#message").val();
+        if (FullName == '' || Email == '' || Message == '') {
+            alert("Fill all fields");
+        } else {
+            alert(FullName + " Your message has been Successfully Submitted!");
+        }
+    })
+    event.preventDefault();
 
 });
