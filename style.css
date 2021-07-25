@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .header{
     background-image: url('assets/backgrounds/h_img.jpg');
     background-size: cover;
@@ -20,6 +19,7 @@
 }
 .caption h2{
     margin-top: 10px;
+    font-family: 'Pacifico';
 
 }
 .caption .todelani{
@@ -32,7 +32,6 @@
 .services{
     background-image: url('assets/backgrounds/s_image.jpg');
     background-size: cover;
-    /* position: relative; */
     background-position: center;
     background-repeat: no-repeat;
     color:#fff;
@@ -55,6 +54,7 @@
 
 .info1, .info2, .info3{
     display: none;
+    font-family: 'Roboto', sans-serif;
 
 }
 .portfolio .row img{
@@ -144,17 +144,6 @@ background-image: url(assets/portfolio/work8.jpg);
 margin-left: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .contact-us{
     background-image: url(assets/backgrounds/c_image.jpg);
     background-size: cover;
@@ -184,6 +173,10 @@ input::placeholder{
 }
 textarea::placeholder{
     color: #fff;
+}
+.contact-us .form button{
+    margin-left:40% ;
+
 }
 footer .icons img{
     width: 40px;
