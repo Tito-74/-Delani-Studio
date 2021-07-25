@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;300;500&display=swap');
 
 .header{
     background-image: url('assets/backgrounds/h_img.jpg');
@@ -89,10 +90,12 @@
     margin-top: 50px;
     height: 100px;
     margin-left: 10%;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 5px 10px #888888;
     display: none;
     color: white;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
 
 }
 .gullary1 .card-body >p{
@@ -101,10 +104,12 @@
     width: 80%;
     height: 100px;
     margin-left: 10%;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 5px 10px #888888;
     display: none;
     color: white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
 }
 .card-4{
     background-image: url(assets/portfolio/work1.jpg);
