@@ -11,5 +11,13 @@ $(document).ready(function(){
         $('#products').hide();
         $('.info3').show();
     });
-    
+    $('.card-1').mouseover(function(){
+        $('.card-1').css("opacity","50%");
+        $("#card-text-1").show();
+       
+    }).mouseout(function(){
+        $('.card-1').css("opacity","100%");
+        $("#card-text-1").hide(200);
+    });
+
 });
