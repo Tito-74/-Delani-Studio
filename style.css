@@ -61,6 +61,91 @@
     width: 98%;
     margin-left: 10px;
 }
+.gullary1{
+    display: flex;
+    
+}
+.card-1, .card-2 , .card-3, .card-4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 200px;
+
+}
+.gullary2{
+    margin-top: 20px;
+    display: flex;
+}
+.card-5, .card-6 , .card-7, .card-8{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    height: 200px;
+
+}
+.gullary2 .card-body >p{
+    border: 1px solid #fff;
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    display: none;
+}
+.gullary1 .card-body >p{
+    margin-top: 50px;
+    border: 1px solid #fff;
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    display: none;
+    color: white;
+}
+.card-4{
+    background-image: url(assets/portfolio/work1.jpg);
+    margin-left: 10px;
+}
+.card-3{
+background-image: url(assets/portfolio/work2.jpg);
+margin-left: 10px;
+}
+.card-2{
+background-image: url(assets/portfolio/work3.jpg);
+margin-left: 10px;
+}
+.card-1{
+background-image: url(assets/portfolio/work4.jpg);
+
+}
+.card-5{
+background-image: url(assets/portfolio/work5.jpg);
+   
+}
+.card-6{
+background-image: url(assets/portfolio/work6.jpg);
+margin-left: 10px;
+}
+.card-7{
+background-image: url(assets/portfolio/work7.jpg);
+margin-left: 10px;
+}
+.card-8{
+background-image: url(assets/portfolio/work8.jpg);
+margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .contact-us{
     background-image: url(assets/backgrounds/c_image.jpg);
